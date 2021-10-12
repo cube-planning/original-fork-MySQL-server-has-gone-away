@@ -1,0 +1,8 @@
+version: '3.0'
+
+services:
+  server:
+    image: python:3.8
+    volumes:
+      - ./:/srv
+    working_dir: /srv
